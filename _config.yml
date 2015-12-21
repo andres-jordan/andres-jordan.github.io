@@ -6,7 +6,7 @@ email: "ajordan@astro.puc.cl"
 mailto: "ajordan@astro.puc.cl"
 description: Astrophysics Professor @ PUC
 baseurl: "" # the subpath of your site, e.g. /blog/
-hostname:andres-jordan.github.io # used to determine if google analytics should be triggered
+hostname: andres-jordan.github.io # used to determine if google analytics should be triggered
 url: http://andres-jordan.github.io/ # the base hostname & protocol for your site
 permalink: /:title/
 
