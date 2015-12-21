@@ -1,3 +1,20 @@
-name: Andres Jordan, Astrophysicist
+# Site settings
+title: Andres Jordan (ajordan)
+person_name: Andres Jordan
+person_nickname: ajordan
+email: "ajordan@astro.puc.cl"
+mailto: "ajordan@astro.puc.cl"
+description: Astrophysics Professor @ PUC
+baseurl: "" # the subpath of your site, e.g. /blog/
+hostname:andres-jordan.github.io # used to determine if google analytics should be triggered
+url: http://andres-jordan.github.io/ # the base hostname & protocol for your site
+permalink: /:title/
+
+blog_url: https://jimeh.io/
+cv_url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
+twitter_username: astrojor
+github_username: andres-jordan
+facebook_username: 
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
