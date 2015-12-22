@@ -11,6 +11,7 @@ url: http://andres-jordan.github.io/ # the base hostname & protocol for your sit
 permalink: /:title/
 
 blog_url: https://jimeh.io/
+research_url: http://andres-jordan.github.io/
 cv_url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
 twitter_username: astrojor
 github_username: andres-jordan
