@@ -42,9 +42,12 @@ $nickname-color:      $base1;
 $sub-title-color:     $base1;
 $link-color:          $base0;
 
-$brand-color:         #1193f6;
-$brand-color-light:   lighten($brand-color, 10%);
-$brand-color-dark:    darken($brand-color, 10%);
+//$brand-color:         #1193f6;
+//$brand-color-light:   lighten($brand-color, 10%);
+//$brand-color-dark:    darken($brand-color, 10%);
+$brand-color:           $blue;
+$brand-color-light:     $blue;
+
 
 $grey-color:          #828282;
 $grey-color-light:    lighten($grey-color, 40%);
