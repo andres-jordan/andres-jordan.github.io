@@ -28,13 +28,19 @@ $base-line-height:    1.5;
 
 $spacing-unit:        30px;
 
-$background-color:    #fdfdfd;
+//$background-color:    #fdfdfd;
+$background-color:    $base03;
 $text-color:          #1a1a1a;
 
-$name-color:          lighten($text-color, 15.5%);
-$nickname-color:      lighten($text-color, 75%);
-$sub-title-color:     lighten($text-color, 55%);
-$link-color:          lighten($text-color, 65%);
+//$name-color:          lighten($text-color, 15.5%);
+//$nickname-color:      lighten($text-color, 75%);
+//$sub-title-color:     lighten($text-color, 55%);
+//$link-color:          lighten($text-color, 65%);
+
+$name-color:          $yellow;
+$nickname-color:      $base1;
+$sub-title-color:     $base1;
+$link-color:          $base0;
 
 $brand-color:         #1193f6;
 $brand-color-light:   lighten($brand-color, 10%);
