@@ -6,16 +6,25 @@ layout: default
     <img class="site-avatar" src="{{ "/img/aj_skycam.jpg" | prepend: site.baseurl }}">
     <span class="content">
       <span class="site-title">
-        <span class="site-name">{{ site.person_name }}</span>
-        <span class="site-description">{{ site.description }}</span>
+        <span class="site-name">{{ site.research_name }}</span>
       </span>
+       <div class="site-research-description">
+          <p>
+          My research has spanned a broad range of topics, concentrating currently on the discovery and characterization of transiting exoplanets, a topic on which I started working while I was a Clay Fellow at the CfA. I'm actively involved in <a href="http://hatsouth.org">HATSouth</a>, a project that has built a global network of southern hemisphere automated wide-field telescopes to detect transiting exoplanets. I am the PI of CHAT, a 0.7m automated telescope currrently being installed at Las Campanas Observatory.
+        </p>
+        <p>
+          You will find below a link to a short CV, including links to ADS libraries of my publications. You can access directly those libraries by following these links: 
+          <a href="http://tinyurl.com/hvc5hfc">[exoplanet publications]</a>
+          <a href="http://tinyurl.com/hg3mk5q">[all publications]</a>.
+        </p>
+        </div>
       <div class="site-links">
         <script type="text/javascript">
           document.write("<n uers=\"{{ site.mailto }}\" bapyvpx=\"_tnd\056chfu(['_genpxRirag', 'yvaxGb', 'rznvy', guvf\056uers]);\"><v pynff=\"sn sn-rairybcr\"><\057v><fcna pynff=\"yvax-grkg\">{{ site.email }}<\057fcna><\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
         </script>
+        <a href="{{ site.prev_url }}"  onclick="_gaq.push(['_trackEvent', 'linkTo', 'research', this.href]);"><i class="fa fa-home"></i><span class="link-text">home</span></a>
         <a href="https://twitter.com/{{ site.twitter_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);"><i class="fa fa-twitter"></i><span class="link-text">twitter</span></a>
         <a href="https://github.com/{{ site.github_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);"><i class="fa fa-github"></i><span class="link-text">github</span></a>
-        <a href="{{ site.research_url }}"  onclick="_gaq.push(['_trackEvent', 'linkTo', 'research', this.href]);"><i class="fa fa-graduation-cap"></i><span class="link-text">research</span></a>
         <a href="{{ site.cv_url }}" onclick="_gaq.push(['_trackEvent', 'download', 'vcard', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">cv (pdf)</span></a>
       </div>
     </span>
