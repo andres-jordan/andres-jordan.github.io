@@ -25,7 +25,7 @@ layout: default
         <a href="{{ site.prev_url }}"  onclick="_gaq.push(['_trackEvent', 'linkTo', 'research', this.href]);"><i class="fa fa-home"></i><span class="link-text">home</span></a>
         <a href="https://twitter.com/{{ site.twitter_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);"><i class="fa fa-twitter"></i><span class="link-text">twitter</span></a>
         <a href="https://github.com/{{ site.github_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);"><i class="fa fa-github"></i><span class="link-text">github</span></a>
-        <a href="{{ site.cv_url }}" onclick="_gaq.push(['_trackEvent', 'download', 'vcard', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">cv (pdf)</span></a>
+        <a href="{{ site.cv_url | prepend: site.research.base}}" onclick="_gaq.push(['_trackEvent', 'download', 'vcard', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">cv (pdf)</span></a>
       </div>
     </span>
   </div>

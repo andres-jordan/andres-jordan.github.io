@@ -13,6 +13,7 @@ permalink: /:title/
 
 prev_url: ../
 blog_url: http://andres-jordan.github.io/
+research_base: research/
 research_url: research/index.html
 cv_url: shortcv.pdf
 twitter_username: astrojor
